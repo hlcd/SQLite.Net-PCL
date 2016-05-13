@@ -11,15 +11,6 @@ copy /y ..\src\SQLite.Net.Platform.Generic\bin\Release\SQLite.Net.Platform.Gener
 mkdir SQLite.Net.Platform.Win32
 copy /y ..\src\SQLite.Net.Platform.Win32\bin\Release\SQLite.Net.Platform.Win32.dll SQLite.Net.Platform.Win32
 
-mkdir SQLite.Net.Platform.WindowsPhone8
-mkdir SQLite.Net.Platform.WindowsPhone8\ARM
-mkdir SQLite.Net.Platform.WindowsPhone8\x86
-copy /y ..\src\SQLite.Net.Platform.WindowsPhone8\bin\x86\Release\SQLite.Net.Platform.WindowsPhone8.dll SQLite.Net.Platform.WindowsPhone8\x86
-copy /y ..\src\SQLite.Net.Platform.WindowsPhone8\bin\ARM\Release\SQLite.Net.Platform.WindowsPhone8.dll SQLite.Net.Platform.WindowsPhone8\ARM
-
-mkdir SQLite.Net.Platform.WinRT
-copy /y ..\src\SQLite.Net.Platform.WinRT\bin\Release\SQLite.Net.Platform.WinRT.dll SQLite.Net.Platform.WinRT
-
 mkdir SQLite.Net.Platform.XamarinAndroid
 copy /y ..\src\SQLite.Net.Platform.XamarinAndroid\bin\Release\SQLite.Net.Platform.XamarinAndroid.dll SQLite.Net.Platform.XamarinAndroid
 
