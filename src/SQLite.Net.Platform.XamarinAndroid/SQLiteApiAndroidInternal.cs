@@ -135,6 +135,13 @@ namespace SQLite.Net.Platform.XamarinAndroid
             out IntPtr stmt,
             IntPtr pzTail);
 
+        [DllImport(DllName, EntryPoint = "sqlite3_prepare_v2", CallingConvention = CallingConvention.Cdecl)]
+        public static extern Result sqlite3_prepare_v2(IntPtr db,
+            byte[] queryBytes,
+            int numBytes,
+            out IntPtr stmt,
+            IntPtr pzTail);
+
         [DllImport(DllName, EntryPoint = "sqlite3_reset", CallingConvention = CallingConvention.Cdecl)]
         public static extern Result sqlite3_reset(IntPtr stmt);
 
