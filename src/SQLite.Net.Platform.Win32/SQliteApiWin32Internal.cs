@@ -96,6 +96,12 @@ namespace SQLite.Net.Platform.Win32
             int numBytes,
             out IntPtr stmt, IntPtr pzTail);
 
+        [DllImport("SQLite.Interop.dll", EntryPoint = "sqlite3_prepare_v2", CallingConvention = CallingConvention.Cdecl)
+        ]
+        public static extern Result sqlite3_prepare_v2(IntPtr db, byte[] queryBytes,
+            int numBytes,
+            out IntPtr stmt, IntPtr pzTail);
+
         [DllImport("SQLite.Interop.dll", EntryPoint = "sqlite3_step", CallingConvention = CallingConvention.Cdecl)]
         public static extern Result sqlite3_step(IntPtr stmt);
 
