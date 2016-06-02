@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Holycode.SQLite.Net-PCL</id>
-        <version>3.1.1.1</version>
+        <version>3.1.1.2</version>
         <title>Holycode SQLite.Net PCL</title>
         <authors>Øystein Krog,Frank Krueger,Tim Heuer</authors>
         <owners>Dominik Minta</owners>
@@ -20,7 +20,7 @@
                 <dependency id="sqlite-net-wp8" version="3.8.5"/>
             </group>
             <group>
-		        <dependency id="Holycode.SQLite.Net.Core-PCL" version="3.1.1.1"/>
+		        <dependency id="Holycode.SQLite.Net.Core-PCL" version="3.1.1.2"/>
             </group>
         </dependencies>
     </metadata>
